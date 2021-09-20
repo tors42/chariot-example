@@ -6,13 +6,11 @@ public class Main {
 
     public static void main(String... args) throws Exception {
 
-        try (var client = Client.basic()) {
+        var client = Client.basic();
 
-            var user = client.users().byId("lichess").get();
+        var result = client.teams().byTeamId("lichess-swiss");
 
-            System.out.println("User %s is %s".formatted(user.username(), user.online() ? "online" : "not online"));
-        }
-
+        result.ifPresent(team -> System.out.printf("Team %s has %d members!%n", team.name(), team.nbMembers()));
     }
 
 }
