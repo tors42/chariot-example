@@ -10,7 +10,7 @@ public class Main {
 
         String message = client.teams().byTeamId("lichess-swiss")
             .map(team -> "Team %s has %d members!".formatted(team.name(), team.nbMembers()))
-            .getOrElse("Didn't find team");
+            .orElse("Didn't find team");
 
         System.out.println(message);
     }
