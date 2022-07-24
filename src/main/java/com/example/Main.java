@@ -8,9 +8,10 @@ public class Main {
 
         var client = Client.basic();
 
-        var result = client.teams().byTeamId("lichess-swiss");
+        String message = client.teams().byTeamId("lichess-swiss")
+            .map(team -> "Team %s has %d members!".formatted(team.name(), team.nbMembers()))
+            .getOrElse("Didn't find team");
 
-        result.ifPresent(team -> System.out.printf("Team %s has %d members!%n", team.name(), team.nbMembers()));
+        System.out.println(message);
     }
-
 }
