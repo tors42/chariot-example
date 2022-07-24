@@ -1,8 +1,8 @@
 # Build
 
-Java 17 can be downloaded [here](https://jdk.java.net/17/)
+Use at least Java 17. Java 18 or newer can be downloaded at https://jdk.java.net/18
 
-Maven can be downloaded [here](https://maven.apache.org/download.cgi)
+Maven can be downloaded at https://maven.apache.org/download.cgi
 
     $ mvn clean install
     ...
@@ -10,5 +10,5 @@ Maven can be downloaded [here](https://maven.apache.org/download.cgi)
 # Run
 
     $ java -jar target/example-1.0.0-SNAPSHOT.jar
-    Team Lichess Swiss has 115391 members!
+    Team Lichess Swiss has 242568 members!
 
