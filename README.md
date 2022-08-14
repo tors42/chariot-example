@@ -1,6 +1,6 @@
 # Build
 
-Use at least Java 17. Java 18 or newer can be downloaded at https://jdk.java.net/18
+Use at least Java 17. Latest can be downloaded at https://jdk.java.net/
 
 Maven can be downloaded at https://maven.apache.org/download.cgi
 
@@ -9,6 +9,6 @@ Maven can be downloaded at https://maven.apache.org/download.cgi
 
 # Run
 
-    $ java -jar target/example-1.0.0-SNAPSHOT.jar
+    $ java -jar target/example-1.0.0-SNAPSHOT-jar-with-dependencies.jar
     Team Lichess Swiss has 242568 members!
 
