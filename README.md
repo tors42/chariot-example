@@ -10,5 +10,5 @@ Maven can be downloaded at https://maven.apache.org/download.cgi
 # Run
 
     $ java -jar target/example-1.0.0-SNAPSHOT-jar-with-dependencies.jar
-    Team Lichess Swiss has 242568 members!
+    Team Lichess Swiss has 304196 members!
 
