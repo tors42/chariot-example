@@ -13,5 +13,26 @@ public class Main {
             .orElse("Didn't find team");
 
         System.out.println(message);
+
+
+        chariot.util.Board board = chariot.util.Board.fromStandardPosition();
+
+        String move1 = "d2d4";
+        String san1 = board.toSAN(move1);
+        board = board.play(move1);
+
+        String move2 = "d7d5";
+        String san2 = board.toSAN(move2);
+        board = board.play(move2);
+
+        String move3 = "b1c3";
+        String san3 = board.toSAN(move3);
+        board = board.play(move3);
+
+
+        System.out.println("san1: " + san1);
+        System.out.println("san2: " + san2);
+        System.out.println("san3: " + san3);
+
     }
 }
