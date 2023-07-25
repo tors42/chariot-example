@@ -11,7 +11,7 @@
         <dependency>
             <groupId>io.github.tors42</groupId>
             <artifactId>chariot</artifactId>
-            <version>0.0.69</version>
+            <version>0.0.70</version>
         </dependency>
     </dependencies>
 
