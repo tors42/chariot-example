@@ -1,14 +1,10 @@
 package com.example;
 
-import java.util.List;
-
 import chariot.Client;
-import chariot.model.User;
 
 public class Main {
 
-  public static void main(String... args) throws Exception {
-
+  public static void main(String[] args) {
     var client = Client.basic();
 
     String message = client.teams().byTeamId("lichess-swiss")
