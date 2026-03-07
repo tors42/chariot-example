@@ -1,6 +1,6 @@
 # Build
 
-Use at least Java 17. Latest can be downloaded at https://jdk.java.net/
+Use at least Java 25. Latest can be downloaded at https://jdk.java.net/
 
 Maven can be downloaded at https://maven.apache.org/download.cgi
 
